@@ -3,7 +3,7 @@ import React, {useEffect} from 'react'
 import { useRouter } from 'next/navigation';
 import { useUserContext } from '../providers/userProvider'; 
 
-const page = () => {
+const Page = () => {
 
     const router = useRouter();
     const { user } = useUserContext(); 
@@ -20,4 +20,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
