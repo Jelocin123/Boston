@@ -148,7 +148,7 @@ const OwnRig = () => {
               {Object.keys(selections).map(
                 (key) =>
                   selections[key].name && selections[key].price && (
-                   <article className="row">
+                   <article className="row" key={index}>
                     <section className="col-12">
                     <p className="text-start  p-3 mb-0" key={key}>
                       {" "}
