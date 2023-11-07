@@ -7,7 +7,7 @@ import DeleteMessageModal from "../modal/deleteMessageModal";
 import { useUserContext } from "../../providers/userProvider";
 
 
-const contacUs = () => {
+const ContacUs = () => {
   const { isLoading, error, makeRequest } = useRequestData();
   const { user } = useUserContext();
 
@@ -147,4 +147,4 @@ const contacUs = () => {
   );
 };
 
-export default contacUs;
+export default ContacUs;

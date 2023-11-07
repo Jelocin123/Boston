@@ -4,7 +4,7 @@ import useRequestData from "../../hooks/useRequestData";
 import Error from "../../components/Error";
 import Loader from "../../components/Loader";
 
-const ownRig = () => {
+const OwnRig = () => {
   const { data, isLoading, error, makeRequest } = useRequestData();
   const [selections, setSelections] = useState({
     cpu: { name: "", price: 0 },
@@ -232,4 +232,4 @@ const ownRig = () => {
   );
 };
 
-export default ownRig;
+export default OwnRig;

@@ -5,7 +5,7 @@ import { useUserContext } from "../../providers/userProvider";
 import EditFooterModal from "../modal/editFooterModal";
 
 
-const footer = () => {
+const Footer = () => {
   const { data, makeRequest } = useRequestData();
 
 
@@ -79,4 +79,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

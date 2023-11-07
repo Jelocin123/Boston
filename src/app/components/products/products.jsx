@@ -9,7 +9,7 @@ import EditModal from "../../components/modal/editModal";
 import DeleteModal from "../../components/modal/deleteModal";
 import AddModal from "../../components/modal/addModal";
 
-const products = () => {
+const Products = () => {
   const { data, isLoading, error, makeRequest } = useRequestData();
   const { user } = useUserContext();
 
@@ -85,4 +85,4 @@ const products = () => {
   );
 };
 
-export default products;
+export default Products;
