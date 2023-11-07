@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+#navContainer {
+   
+  a {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  #ulList {
+    a {
+      font-size: calc(.45em + .45vw);
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      color: black;
+      transition: ease-in-out 0.4s;
+      text-wrap: nowrap;
+      
+    }
+    li:not(:last-child) { 
+        margin-right: 23px;  
+     }
+    a:focus {
+      color: rgb(78, 78, 78);
+    }
+    a:hover {
+      box-shadow: 0 4px 2px -2px gray;
+    }
+  }
+
+  #logIn {
+    background-color: rgba(144, 144, 144, 0.363);
+    border-radius: 4px;
+   
+  }
+
+  #signOut {
+    font-size: calc(.45em + .45vw);
+  }
+}

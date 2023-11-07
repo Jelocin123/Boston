@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+
+#sliderContainer {
+
+    
+.customSlider {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .activeSlide {
+    flex: 0 0 auto;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+  }
+  
+    position: relative;
+
+    img {
+        width: 100% ;
+        height: 600px;
+        object-fit: cover;
+        object-position: top;
+    
+        @media screen and (min-width: 1920px) { 
+            width: 100% ;
+            height: 700px;
+            object-fit: cover;
+        object-position: top;
+            
+            
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .slider_content {
+            background-color: rgba(0, 0, 0, 0.716);
+            border-radius: 3px;
+            
+            h1 {
+                font-family: "Lato", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: white;
+                
+            }
+
+        }
+
+        .twoLinesWithStar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .line {
+            width: 22%;
+            height: 4px;
+            border-radius: 50px;
+            background-color: #fff;
+            margin: 0 13px;
+          }
+          
+          .star {
+            font-size: 30px;
+            color: #fff;
+          }
+        
+    
+  
+      }
+
+ 
+   
+}
+

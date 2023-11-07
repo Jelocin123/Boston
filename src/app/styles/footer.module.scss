@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+#footerContainer {
+    background-color: rgba(65, 65, 65, 255);
+
+
+
+    .footerH4 {
+        text-transform: uppercase;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: calc(.7em + .7vw);
+    }
+
+
+    #icon_link {
+      width: calc(1.3em + 1.3vw);
+      height: calc(1.3em + 1.3vw);
+        // width: 30px; 
+        // height: 30px; 
+        margin: 0 5px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(0.7em + .7vw);
+      }
+      
+
+      
+
+      .aboutP {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: calc(.6em + .6vw);
+      }
+
+
+      #copyRight {
+        background-color: rgba(22,22,22,255);
+        font-size: calc(.35em + .35vw);
+        text-wrap: nowrap;
+      }
+
+      button {
+      font-size: calc(.5em + .5vw);
+
+      }
+
+
+      
+  
+}
+

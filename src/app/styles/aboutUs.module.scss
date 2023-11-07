@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+#aboutUsContainer {
+    background-color: rgba(65, 65, 65, 255);
+    width: 98%;
+    hr {
+        border: 0;
+      height: 1px;
+      background-color: black;
+      opacity: 1;
+      width: 100% !important;
+    }
+
+    h2 {
+      font-size: calc(1em + 1vw);
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    
+      .twoLinesWithStar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .line {
+        width: 7%;
+        height: 4px;
+        border-radius: 50px;
+        background-color: #fff;
+        margin: 0 13px;
+      }
+    
+      .star {
+        font-size: calc(1em + 1vw);
+        color: #fff;
+      }
+
+      #textBox {
+        p {
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-size: calc(.6em + .6vw);
+            font-weight: 100 ;
+          }
+    }
+
+    button {
+      font-size: calc(.5em + .5vw);
+    }
+      }
+
+    

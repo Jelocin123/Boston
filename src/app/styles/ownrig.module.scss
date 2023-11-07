@@ -1,0 +1,113 @@
+#ownRigContainer {
+  h2 {
+    font-size: calc(1em + 1vw);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .twoLinesWithStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    width: 7%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 0 13px;
+  }
+
+  .star {
+    font-size: calc(1em + 1vw);
+    color: #fff;
+  }
+
+  .cpuBg {
+    background-color: rgba(65, 65, 65, 255);
+    border-radius: 6px;
+
+   
+  }
+
+  #summary {
+    border-radius: 6px;
+
+    p {
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-size: calc(.39em + .39vw);
+      border-bottom: 1px solid black;
+    }
+
+    #spanTotal {
+      border-radius: 20px;
+      font-size: calc(.4em + .4vw);
+      font-family: "Lato", sans-serif;
+    }
+
+    hr {
+      border: 0;
+      height: 2px;
+      background-color: black;
+      opacity: 1;
+    }
+
+    span {
+    font-size: calc(.5em + .5vw);
+
+    }
+
+    #priceSpan {
+      font-size: calc(.45em + .45vw);
+      border: 1px solid black;
+      border-radius: 5px ;
+      padding: 5px;
+      background-color: #414141;
+      color: white;
+    }
+
+    
+    
+  }
+
+
+  #contactUs {
+    
+    input {
+    background-color: rgba(65, 65, 65, 255);
+    color: white;
+    font-size: calc(.5em + .5vw);
+    
+    }
+
+    button {
+    background-color: rgba(65, 65, 65, 255);
+    border: 1px solid white;
+    font-size: calc(.5em + .5vw);
+
+    }
+
+    ::placeholder {
+      color: white;
+      
+    }
+  }
+
+  #sectionLabel {
+    font-size: calc(.5em + .5vw);
+  }
+
+  #sectionNames {
+    font-size: calc(.4em + .4vw);
+    
+
+  }
+
+  #pSelect {
+    font-size: calc(.5em + .5vw);
+
+  }
+}

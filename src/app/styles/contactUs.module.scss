@@ -1,0 +1,84 @@
+#contactUsContainer {
+  h2 {
+    font-size: calc(1em + 1vw);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .twoLinesWithStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    width: 7%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 0 13px;
+  }
+
+  .star {
+    font-size: calc(1em + 1vw);
+    color: #fff;
+  }
+
+  #contactUs {
+    input {
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+      color: white;
+      font-family: "Lato", sans-serif;
+    }
+
+    input,
+    input::placeholder {
+      font-size: calc(.65em + .65vw);
+    }
+
+    textarea::placeholder {
+      font-size: calc(.65em + .65vw);
+      
+    }
+
+    textarea:focus,
+    input:focus {
+      outline: 0;
+      border: 0;
+      box-shadow: 0 0 0 0;
+    }
+    .contactBtn {
+      background-color: rgba(65, 65, 65, 255);
+      border: 1px solid white;
+    }
+
+    ::placeholder {
+      color: white;
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
+    }
+
+    ::selection {
+      background-color: transparent;
+    }
+
+    textarea {
+      background-color: transparent;
+      border: 0;
+      color: white;
+      font-family: "Lato", sans-serif;
+      resize: none;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: white;
+      opacity: 1;
+      width: 100% !important;
+    }
+  }
+}
